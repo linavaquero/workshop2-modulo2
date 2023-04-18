@@ -1,5 +1,9 @@
 body {
-  background-color: red;
+  background-color: #fafafa;
+}
+
+.section-content {
+  padding: 80px 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
