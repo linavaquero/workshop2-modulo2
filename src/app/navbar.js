@@ -17,13 +17,13 @@ document.addEventListener("click", (event) => {
     containerFeatures.innerHTML = ""
     containerFeatures.innerHTML += `
     <ul class="dropdown__features">
-    <li><a class="" href="#"><img src="./public/icon-todo.svg" alt=""> Todo List</a></li>
-    <li><a class="" href="#"><img src="./public/icon-calendar.svg" alt=""> Calendar</a>
+    <li><a class="" href="#"><img src="./public/icon-todo.svg" alt=""><i class="fa-solid fa-calendar-minus pe-2" style="color: #5c2dc8;"></i> Todo List</a></li>
+    <li><a class="" href="#"><img src="./public/icon-calendar.svg" alt=""><i class="fa-solid fa-calendar-day pe-2" style="color: #19c0cc;"></i> Calendar</a>
     </li>
 
-    <li><a class="" href="#"><img src="./public/icon-reminders.svg" alt=""> Reminders</a>
+    <li><a class="" href="#"><img src="./public/icon-reminders.svg" alt=""><i class="fa-solid fa-bell pe-2" style="color: #f1de09;"></i> Reminders</a>
     </li>
-    <li><a class="" href="#"><img src="./public/icon-planning.svg" alt=""> Planing</a>
+    <li><a class="" href="#"><img src="./public/icon-planning.svg" alt=""><i class="fa-solid fa-clock pe-2" style="color: #91139a;"></i> Planing</a>
     </li>
     </ul>
     `;
@@ -90,15 +90,15 @@ document.addEventListener("click", (event) => {
     </li>
     <li id="">
 
-    <ul>
-      <li><a class="" href="#"><img src="./public/icon-todo.svg" alt=""> Todo List</a></li>
-      <li><a class="" href="#"><img src="./public/icon-calendar.svg" alt=""> Calendar</a>
-      </li>
+    <ul class="">
+    <li><a class="" href="#"><img src="./public/icon-todo.svg" alt=""><i class="fa-solid fa-calendar-minus pe-2" style="color: #5c2dc8;"></i> Todo List</a></li>
+    <li><a class="" href="#"><img src="./public/icon-calendar.svg" alt=""><i class="fa-solid fa-calendar-day pe-2" style="color: #19c0cc;"></i> Calendar</a>
+    </li>
 
-      <li><a class="" href="#"><img src="./public/icon-reminders.svg" alt=""> Reminders</a>
-      </li>
-      <li><a class="" href="#"><img src="./public/icon-planning.svg" alt=""> Planing</a>
-      </li>
+    <li><a class="" href="#"><img src="./public/icon-reminders.svg" alt=""><i class="fa-solid fa-bell pe-2" style="color: #f1de09;"></i> Reminders</a>
+    </li>
+    <li><a class="" href="#"><img src="./public/icon-planning.svg" alt=""><i class="fa-solid fa-clock pe-2" style="color: #91139a;"></i> Planing</a>
+    </li>
     </ul>
 
     </li>
@@ -134,15 +134,15 @@ document.addEventListener("click", (event) => {
     </li>
     <li id="">
 
-    <ul>
-      <li><a class="" href="#"><img src="./public/icon-todo.svg" alt=""> Todo List</a></li>
-      <li><a class="" href="#"><img src="./public/icon-calendar.svg" alt=""> Calendar</a>
-      </li>
+    <ul class="">
+    <li><a class="" href="#"><img src="./public/icon-todo.svg" alt=""><i class="fa-solid fa-calendar-minus pe-2" style="color: #5c2dc8;"></i> Todo List</a></li>
+    <li><a class="" href="#"><img src="./public/icon-calendar.svg" alt=""><i class="fa-solid fa-calendar-day pe-2" style="color: #19c0cc;"></i> Calendar</a>
+    </li>
 
-      <li><a class="" href="#"><img src="./public/icon-reminders.svg" alt=""> Reminders</a>
-      </li>
-      <li><a class="" href="#"><img src="./public/icon-planning.svg" alt=""> Planing</a>
-      </li>
+    <li><a class="" href="#"><img src="./public/icon-reminders.svg" alt=""><i class="fa-solid fa-bell pe-2" style="color: #f1de09;"></i> Reminders</a>
+    </li>
+    <li><a class="" href="#"><img src="./public/icon-planning.svg" alt=""><i class="fa-solid fa-clock pe-2" style="color: #91139a;"></i> Planing</a>
+    </li>
     </ul>
 
     </li>
