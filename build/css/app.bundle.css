@@ -1,0 +1,159 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/app/style.css ***!
+  \*********************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 18px;
+}
+body h1 {
+  font-size: 72px;
+  font-family: Epilogue;
+  font-weight: 700;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+body p {
+  max-width: 24rem;
+  margin-bottom: 32px;
+}
+
+.nav__space {
+  margin-left: auto;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__ppl, .display__mobile {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__ppl a, .display__mobile a {
+  color: hsl(0, 0%, 8%);
+  text-decoration: none;
+  padding-left: 12px;
+}
+.nav__ppl .nav__item, .display__mobile .nav__item {
+  padding: 15px;
+}
+.nav__ppl li, .display__mobile li {
+  list-style: none;
+}
+.nav__ppl form a, .display__mobile form a {
+  padding-right: 25px;
+}
+.nav__ppl form button, .display__mobile form button {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 8%);
+  border-radius: 12px;
+  padding: 4px 20px;
+}
+
+.section__content {
+  padding: 50px 20px 0px;
+}
+.section__content button {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 8%);
+  border-radius: 12px;
+  padding: 4px 20px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+}
+
+.dropdown__features, .dropdown__company {
+  position: absolute;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  left: 100px;
+  padding: 24px;
+}
+.dropdown__features a, .dropdown__company a {
+  color: hsl(0, 0%, 8%);
+  text-decoration: none;
+}
+.dropdown__features li, .dropdown__company li {
+  list-style: none;
+  padding: 8px;
+}
+
+.dropdown__company {
+  left: 310px;
+}
+
+#menu-mobile {
+  position: relative;
+}
+
+.display__mobile {
+  background-color: hsl(0, 0%, 98%);
+  position: absolute;
+  right: 0px;
+  width: 70%;
+  height: 100vh;
+}
+.display__mobile button {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 8%);
+  border-radius: 12px;
+  padding: 4px 20px;
+}
+.display__mobile li {
+  padding-bottom: 12px;
+}
+
+@media (max-width: 375px) {
+  .nav__ppl, .display__mobile {
+    display: flex;
+  }
+  .section__content h1 {
+    font-size: 36px;
+    font-family: Epilogue;
+    font-weight: 700;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  .section__content p {
+    text-align: center;
+  }
+  .section__content .article__marks img {
+    max-width: 70px;
+    padding: 2px;
+  }
+  .display__mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 98%);
+    position: absolute;
+    right: 0px;
+    width: 70%;
+    height: 100vh;
+    align-items: initial;
+    justify-content: normal;
+  }
+  .display__mobile button {
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 8%);
+    border-radius: 12px;
+    padding: 4px 20px;
+  }
+  .display__mobile li {
+    padding-bottom: 12px;
+  }
+}
+

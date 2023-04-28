@@ -1,0 +1,47 @@
+{
+  "homepage": "https://linavaquero.github.io/workshop2-modulo2",
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
+    "raw-loader": "^4.0.2",
+    "svg-inline-loader": "^0.8.2",
+    "svg-url-loader": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linavaquero/workshop2-modulo2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linavaquero/workshop2-modulo2/issues"
+  }
+}
