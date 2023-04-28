@@ -15,68 +15,116 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="">
+      <div class="nav__ppl">
+        <a class="navbar-brand" href="#"><img src="./app/public/logo.svg" alt="logo"></a>
+        <a class="d-sm-block d-md-none" id="menu-mobile"><img src="./app/public/icon-menu.svg" alt="" id="menu-mobile" class="img-menu"></a>
+
+        <ul class="nav__links d-none d-md-flex">
+          <li class="nav__item">
+            <span><a class="" href="#" id="navbarDropdownFeatures" > Features</a></span>
+            <span id="arrow"><img src="./app/public/icon-arrow-down.svg" alt="" id="navbarDropdownFeatures"></span>
+
+          </li>
+          <li class="nav__item">
+            <span><a class="" href="#" id="navbarDropdownCompany"> Company </a></span>
+            <span><img src="./app/public/icon-arrow-down.svg" alt="" id="navbarDropdownCompany"></span>
+
+          </li>
+
+          <li class="nav__item">
+            <a class=" ">Careers</a>
+          </li>
+          <li class="nav__item">
+            <a class="" aria-current="page" href="#">About</a>
+          </li>
+
+        </ul>
+        <div class="nav__space d-none d-md-flex">
+        <form class="">
+          <a class="" aria-current="page" href="#">Login</a>
+          <button class="btn__link" type="submit">Register</button>
+        </form>
+
+    </div>
+    </div>
+
+    </nav>
+<!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav__ppl">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="../public/logo.svg" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="#"><img src="./app/public/logo.svg" alt="logo"></a>
+
+          <a class="d-sm-block d-md-none" id="menu-mobile"><img src="./app/public/icon-menu.svg" alt="" id="menu-mobile" class="img-menu"></a>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-            <li class="nav-item">
+            <li class="nav-item nav__item">
               <span><a class="" href="#" id="navbarDropdownFeatures" > Features</a></span>
-              <span id="arrow"><img src="../public/icon-arrow-down.svg" alt="" id="navbarDropdownFeatures"></span>
-              <ul id="dropdown-features">
+              <span id="arrow"><img src="./app/public/icon-arrow-down.svg" alt="" id="navbarDropdownFeatures"></span>
 
-              </ul>
             </li>
-            <li>
+            <li class="nav__item">
               <span><a class="" href="#" id="navbarDropdownCompany"> Company </a></span>
-              <span><img src="../public/icon-arrow-down.svg" alt="" id="navbarDropdownCompany"></span>
-              <ul id="dropdown-company">
+              <span><img src="./app/public/icon-arrow-down.svg" alt="" id="navbarDropdownCompany"></span>
 
-              </ul>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link ">Careers</a>
+            <li class="nav-item nav__item">
+              <a class=" ">Careers</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+            <li class="nav-item nav__item">
+              <a class="" aria-current="page" href="#">About</a>
             </li>
           </ul>
           <form class="d-flex">
-            <a class="nav-link active" aria-current="page" href="#">Login</a>
-            <button class="btn btn-outline-success" type="submit">Register</button>
+            <a class="" aria-current="page" href="#">Login</a>
+            <button class="btn__link" type="submit">Register</button>
           </form>
         </div>
       </div>
-    </nav>
+    </nav> -->
   </header>
+  <div id="dropdown-features">
+
+  </div>
+
+  <div id="dropdown-company">
+
+  </div>
+  <div id="burguer-menu-mobile">
+
+  </div>
+
+  <!-- <div id="dropdown-features-mobile">
+
+  </div> -->
 
   <main class="container d-flex mt-5">
 
       <section>
         <div class="container">
           <div class="row banner">
-            <div class="col-8 section-content">
-              <h1>MAKE REMOTE WORK</h1>
-              <p>Get your team in sync, no matter your location, Streamline process, create team rituals, and watch
+            <div class="col-sm-12 d-block d-md-none img-banner">
+              <img class="w-100 d-block d-md-none" src="./app/public/image-hero-mobile.png" alt="">
+            </div>
+            <div class="col-sm-12 col-md-8 section__content">
+              <h1>Make remote work</h1>
+              <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
                 productivity soar</p>
-              <button class="btn btn-outline-success" type="submit">Learn more</button>
-              <article class="marks mt-5">
-                <img src="../public/client-databiz.svg" alt="databiz">
-                <img src="../public/client-audiophile.svg" alt="audiophile">
-                <img src="../public/client-meet.svg" alt="meet">
-                <img src="../public/client-maker.svg" alt="maker">
+              <div class="d-flex justify-content-center justify-content-sm-start"><button class="btn__link2" type="submit">Learn more</button></div>
+              <article class="article__marks mt-5">
+                <img src="./app/public/client-databiz.svg" alt="databiz">
+                <img src="./app/public/client-audiophile.svg" alt="audiophile">
+                <img src="./app/public/client-meet.svg" alt="meet">
+                <img src="./app/public/client-maker.svg" alt="maker">
 
               </article>
 
             </div>
-            <div class="col-4 img-banner">
-              <img class="w-100" src="../public/image-hero-desktop.png" alt="">
+            <div class="col-sm-12 col-md-4 img-banner">
+              <img class="w-100 d-none d-md-block" src="./app/public/image-hero-desktop.png" alt="">
             </div>
           </div>
         </div>
