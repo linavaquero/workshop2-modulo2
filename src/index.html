@@ -11,91 +11,91 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <nav class="">
+      <div class="nav__ppl">
+        <a class="navbar-brand" href="#"><img src="./app/public/logo.svg" alt="logo"></a>
+        <a class="d-sm-block d-md-none" id="menu-mobile"><img src="./app/public/icon-menu.svg" alt="" id="menu-mobile" class="img-menu"></a>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Features
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#"><img src="./img/icon-todo.svg" alt="Todo list"> Todo List</a></li>
-                <li><a class="dropdown-item" href="#"><img src="./img/icon-calendar.svg" alt="calendar"> Calendar</a>
-                </li>
-                <li><a class="dropdown-item" href="#"><img src="./img/icon-reminders.svg" alt="Reminders"> Reminders</a>
-                </li>
-                <li><a class="dropdown-item" href="#"><img src="./img/icon-planning.svg" alt="planning"> Planing</a>
-                </li>
-              </ul>
-            </li>
+        <ul class="nav__links d-none d-md-flex">
+          <li class="nav__item">
+            <span><a class="" href="#" id="navbarDropdownFeatures" > Features</a></span>
+            <span id="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+            <!-- <span id="arrow"><img src="./app/public/icon-arrow-down.svg" alt="" id="navbarDropdownFeatures"></span> -->
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Company
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">History</a></li>
-                <li><a class="dropdown-item" href="#">Our Team</a></li>
-                <li><a class="dropdown-item" href="#">Blog</a></li>
-              </ul>
-            </li>
+          </li>
+          <li class="nav__item">
+            <span><a class="" href="#" id="navbarDropdownCompany"> Company </a></span>
+            <span id="arrow2"><i class="fa-solid fa-chevron-down"></i></span>
+            <!-- <span><img src="./app/public/icon-arrow-down.svg" alt="" id="navbarDropdownCompany"></span> -->
 
-            <li class="nav-item">
-              <a class="nav-link ">Careers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <a class="nav-link active" aria-current="page" href="#">Login</a>
-            <button class="btn btn-outline-success" type="submit">Register</button>
-          </form>
-        </div>
-      </div>
+          </li>
+
+          <li class="nav__item">
+            <a class=" "> Careers</a>
+          </li>
+          <li class="nav__item">
+            <a class="" aria-current="page" href="#">About</a>
+          </li>
+
+        </ul>
+        <div class="nav__space d-none d-md-flex">
+        <form class="">
+          <a class="" aria-current="page" href="#">Login</a>
+          <button class="btn__link" type="submit">Register</button>
+        </form>
+
+    </div>
+    </div>
+
     </nav>
+
   </header>
+  <div id="dropdown-features">
+
+  </div>
+
+  <div id="dropdown-company">
+
+  </div>
+  <div id="burguer-menu-mobile">
+
+  </div>
+
+  <!-- <div id="dropdown-features-mobile">
+
+  </div> -->
 
   <main class="container d-flex mt-5">
-   
+
       <section>
         <div class="container">
           <div class="row banner">
-            <div class="col-8 section-content">
-              <h1>MAKE REMOTE WORK</h1>
-              <p>Get your team in sync, no matter your location, Streamline process, create team rituals, and watch
-                productivity soar</p>
-              <button class="btn btn-outline-success" type="submit">Learn more</button>
-              <article class="marks mt-5">
-                <img src="./img/client-databiz.svg" alt="databiz">
-                <img src="./img/client-audiophile.svg" alt="audiophile">
-                <img src="./img/client-meet.svg" alt="meet">
-                <img src="./img/client-maker.svg" alt="maker">
-
-              </article>
-
+            <div class="col-sm-12 d-block d-md-none img-banner">
+              <img class="w-100 d-block d-md-none" src="./app/public/image-hero-mobile.png" alt="">
             </div>
-            <div class="col-4 img-banner">
-              <img class="w-100" src="./img/image-hero-desktop.png" alt="">
+            <div class="col-sm-12 col-md-8 section__content">
+              <h1>Make remote work</h1>
+              <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+                productivity soar</p>
+              <div class="d-flex justify-content-center justify-content-sm-start"><button class="btn__link2" type="submit">Learn more</button></div>
+              <article class="article__marks mt-5">
+                <img src="./app/public/client-databiz.svg" alt="databiz">
+                <img src="./app/public/client-audiophile.svg" alt="audiophile">
+                <img src="./app/public/client-meet.svg" alt="meet">
+                <img src="./app/public/client-maker.svg" alt="maker">
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-4 img-banner">
+              <img class="w-100 d-none d-md-block" src="./app/public/image-hero-desktop.png" alt="">
             </div>
           </div>
         </div>
       </section>
-   
-   
 
   </main>
 
